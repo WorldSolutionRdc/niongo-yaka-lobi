@@ -70,28 +70,30 @@ gcloud run deploy ultra-speed-proxy \
 
 ---
 
-✨ Caractéristiques
+## 📊 **Configuration Technique**
 
-<div align="center">
-
-🚀 Performance 🔒 Sécurité ⚡ Optimisation
-Faible latence Stream TCP 512Mi mémoire
-Haut débit Layer 4 proxy 1 CPU vCPU
-Timeout 3600s Non authentifié Auto-scaling
-
-</div>
-
----
-
-📈 Statut & Monitoring
-
-<div align="center">
-
-https://img.shields.io/badge/uptime-99.99%25-brightgreen?style=flat-square
-https://img.shields.io/badge/response_time-<50ms-brightgreen?style=flat-square
-https://img.shields.io/badge/status-active-success?style=flat-square
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center"><b>🎯 VPS Cible</b></td>
+    <td><code>207.126.161.196:443</code></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🔌 Port d'écoute</b></td>
+    <td><code>8080</code></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🌍 Région VPS</b></td>
+    <td>🇬🇧 europe-west2 (Londres)</td>
+  </tr>
+  <tr>
+    <td align="center"><b>☁️ Région Cloud Run</b></td>
+    <td>🇬🇧 europe-west2 (Londres)</td>
+  </tr>
+  <tr>
+    <td align="center"><b>⚡ Type</b></td>
+    <td>TCP Stream (Layer 4)</td>
+  </tr>
+</table>
 
 ---
 
