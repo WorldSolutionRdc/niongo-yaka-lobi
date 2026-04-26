@@ -168,25 +168,29 @@ sequenceDiagram
      └────────────────────────────────┴────────────────────────────────┘
                          TCP Response (bidirectionnel)
                          
-</div>
-
-<br>
-
-## 📊 **MÉTRIQUES DE PERFORMANCE**
+✨ Caractéristiques
 
 <div align="center">
 
-| Métrique | Valeur | Statut |
-|:--------:|:------:|:------:|
-| Latence moyenne | < 50ms | ✅ OPTIMAL |
-| Débit max | 1 Gbps | ✅ EXCELLENT |
-| Disponibilité | 99.99% | ✅ PARFAIT |
-| Connexions simultanées | Illimité | ✅ SCALABLE |
+🚀 Performance 🔒 Sécurité ⚡ Optimisation
+Faible latence Stream TCP 512Mi mémoire
+Haut débit Layer 4 proxy 1 CPU vCPU
+Timeout 3600s Non authentifié Auto-scaling
 
 </div>
 
-<br>
+---
 
+📈 Statut & Monitoring
+
+<div align="center">
+
+https://img.shields.io/badge/uptime-99.99%25-brightgreen?style=flat-square
+https://img.shields.io/badge/response_time-<50ms-brightgreen?style=flat-square
+https://img.shields.io/badge/status-active-success?style=flat-square
+
+</div>
+---
 
 ⭐ N'hésitez pas à laisser une étoile si ce projet vous est utile ! ⭐
 
@@ -206,24 +210,3 @@ Dernière mise à jour : 4 jours ago
 --->
 
 ```
-
-Pour un style encore plus avancé avec des animations CSS personnalisées, vous pouvez ajouter ceci au début de votre README (les badges GitHub supportent les styles HTML/CSS) :
-
-```html
-<div align="center">
-  <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="30" height="30">
-  <h1>
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3000&pause=500&color=F7D94C&center=true&vCenter=true&width=600&lines=PROXY+NGINX+ULTRA+RAPIDE;LATENCE+MINIMALE;HAUTE+DISPONIBILIT%C3%89" alt="Typing Animation" />
-  </h1>
-</div>
-```
-
-Ce README stylisé inclut :
-
-· ✨ Des emojis colorés
-· 📊 Des tableaux de configuration
-· 🎯 Des badges de statut animés
-· 🔄 Un diagramme d'architecture
-· 💫 Des effets de texte animés
-· 🌊 Des vagues décoratives
-· 📈 Des métriques visuelles
