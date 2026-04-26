@@ -183,15 +183,47 @@ https://img.shields.io/badge/status-active-success?style=flat-square
 
 ---
 
-<div align="center">
+<br/>
 
-Maintenu avec ❤️ par WorldSolutionRdc
+🤝 Contribution
 
-Dernière mise à jour : 4 jours ago
+Les contributions sont les bienvenues !
 
-</div>
+1. Fork le projet
+2. Crée ta branche (git checkout -b feature/AmazingFeature)
+3. Commit tes changements (git commit -m 'Add AmazingFeature')
+4. Push la branche (git push origin feature/AmazingFeature)
+5. Ouvre une Pull Request
 
-<!---
---->
+<br/>
 
-```
+📝 Licence
+
+Distribué sous licence MIT. Voir LICENSE pour plus d'informations.
+
+<br/>
+
+👨‍💻 Auteur
+
+WorldSolutionRdc
+
+· GitHub: @WorldSolutionRdc
+· Email: worldsolutiontv@gmail.com
+
+<br/>
+
+🙏 Remerciements
+
+· PANCHO7532 - Proxy Bridge original
+· BadVPN - Tunneling UDP/TCP
+· stunnel - Couche TLS/SSL
+· Dropbear - Serveur SSH léger
+· Google Cloud Run - Infrastructure serverless
+
+<br/>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+</p>
