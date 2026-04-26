@@ -154,31 +154,6 @@ sequenceDiagram
 
 <br>
 
-🔄 DÉTAIL DU FLUX TCP
-
-<div align="center">
-
-```
-┌─────────┐    TCP Request     ┌─────────────┐    TCP Stream     ┌─────────┐
-│ Client  │ ──────────────────► │ Cloud Run   │ ────────────────► │  VPS    │
-│   👤    │      Port 8080      │   ☁️ :8080   │     Layer 4       │  🖥️ :443 │
-└─────────┘                     └─────────────┘                   └─────────┘
-     ▲                                │                                │
-     │                                │                                │
-     └────────────────────────────────┴────────────────────────────────┘
-                         TCP Response (bidirectionnel)
-                         
-✨ Caractéristiques
-
-<div align="center">
-
-🚀 Performance 🔒 Sécurité ⚡ Optimisation
-Faible latence Stream TCP 512Mi mémoire
-Haut débit Layer 4 proxy 1 CPU vCPU
-Timeout 3600s Non authentifié Auto-scaling
-
-</div>
-
 ---
 
 📈 Statut & Monitoring
