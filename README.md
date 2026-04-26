@@ -67,37 +67,32 @@ gcloud run deploy v2ray-tunnel \
 
 ---
 
-🌐 Architecture du flux
+🌊 ARCHITECTURE DU FLUX
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│   👤 CLIENT                                                         │
-│      │                                                              │
-│      │ WebSocket over TLS                                           │
-│      ▼                                                              │
-│   ☁️ GOOGLE CLOUD RUN (:8080)                                       │
-│      │                                                              │
-│      │ V2Ray Protocol                                               │
-│      ▼                                                              │
-│   🖥️ VPS PRINCIPAL (:443)                                           │
-│      │                                                              │
-│      │ Réponse                                                      │
-│      ▼                                                              │
-│   👤 CLIENT                                                         │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-
+```mermaid
+flowchart LR
+    A[👤 CLIENT] -->|Requête| B[☁️ CLOUD RUN<br/>Port: 8080]
+    B -->|TCP Stream| C[🖥️ VPS PRINCIPAL<br/>Port: 443]
+    C -->|Réponse| B
+    B -->|Réponse| A
+    
+    style A fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#0D47A1,stroke-width:3px,color:#fff
+    style C fill:#FF9800,stroke:#E65100,stroke-width:3px,color:#fff
 ```
 
 </div>
 
-```
-📦 Client ─────► ☁️ Cloud Run :8080 ─────► 🖥️ VPS :443
-✅ Client ◄───── ☁️ Cloud Run :8080 ◄───── 🖥️ VPS :443
-```
+<br>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1500&pause=300&color=00FF00&center=true&vCenter=true&width=600&lines=📦+Client+→+Cloud+Run+:8080;⚡+Cloud+Run+→+VPS+:443;💨+VPS+:443+→+Cloud+Run;✅+Cloud+Run+→+Client" alt="Flow Animation">
+</div>
+
+<br>
+
 
 ---
 
