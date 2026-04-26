@@ -54,17 +54,18 @@ gcloud run deploy v2ray-tunnel \
 
 ---
 
-✨ Caractéristiques
+<br>
+
+✨ CARACTÉRISTIQUES
 
 <div align="center">
 
-🚀 Performance 🔒 Sécurité ⚡ Optimisation
+🚀 PERFORMANCE 🔒 SÉCURITÉ ⚡ OPTIMISATION
 Faible latence Stream TCP 512Mi mémoire
 Haut débit Layer 4 proxy 1 CPU vCPU
 Timeout 3600s Non authentifié Auto-scaling
 
 </div>
-
 
 ---
 
